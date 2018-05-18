@@ -40,6 +40,7 @@ const mutation = gql`mutation AddLyricToSong($content: String, $songid: ID){
     lyrics{
       id
       content
+      likes
     }
   }
 }`
